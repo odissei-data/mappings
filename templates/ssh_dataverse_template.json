@@ -834,6 +834,12 @@
             "multiple": true,
             "typeClass": "primitive",
             "value": []
+          },
+          {
+            "typeName": "dansAATClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": []
           }
         ]
       }
