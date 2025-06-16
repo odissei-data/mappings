@@ -198,5 +198,9 @@
       "dansRelationURI": ["dansRelationURI.value"],
       "dansRelationText": ["dansRelationText.value"]
     }
+  },
+  "dansAATClassification": {
+    "mapping": "datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansAATClassification'].value[]"
   }
+  
 }
