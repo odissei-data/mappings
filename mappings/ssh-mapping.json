@@ -145,6 +145,7 @@
   "geographicUnit": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicUnit'].value[]"],
   "dansElsstClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansElsstClassification'].value[]"],
   "dansCessdaClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansCessdaClassification'].value[]"],
+  "dansAATClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansAATClassification'].value[]"],
   "dansRightsHolder": ["datasetVersion.metadataBlocks.dansRights.fields[?typeName == 'dansRightsHolder'].value[]"],
   "dansPersonalDataPresent": ["datasetVersion.metadataBlocks.dansRights.fields[?typeName == 'dansPersonalDataPresent'].value"],
   "dansMetadataLanguage": ["datasetVersion.metadataBlocks.dansRights.fields[?typeName == 'dansMetadataLanguage'].value[]"],
@@ -198,9 +199,5 @@
       "dansRelationURI": ["dansRelationURI.value"],
       "dansRelationText": ["dansRelationText.value"]
     }
-  },
-  "dansAATClassification": {
-    "mapping": "datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansAATClassification'].value[]"
   }
-  
 }
