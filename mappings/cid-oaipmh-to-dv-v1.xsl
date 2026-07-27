@@ -22,7 +22,7 @@
         <xsl:variable name="dateTime" select="//ns0:datestamp" />
        "publicationDate": "<xsl:value-of select="substring-before($dateTime, 'T')" />",
        "termsOfUse": "<xsl:value-of select="//ns1:rights/@rightsURI"/>\n<xsl:value-of select="//ns1:rights"/>",
-       <xsl:text disable-output-escaping="yes">"dataAccessPlace": "&lt;a href=\&quot;https://dab.surf.nl/dataset?pid=doi:</xsl:text><xsl:value-of select="//ns1:identifier"/><xsl:text disable-output-escaping="yes">\&quot;&gt;https://dab.surf.nl/dataset?pid=doi:</xsl:text><xsl:value-of select="//ns1:identifier"/><xsl:text disable-output-escaping="yes">&lt;/a&gt;",</xsl:text>
+       <xsl:text disable-output-escaping="yes">"dataAccessPlace": "&lt;a href=\&quot;https://dab.surf.nl/resolve-pid/doi:</xsl:text><xsl:value-of select="//ns1:identifier"/><xsl:text disable-output-escaping="yes">\&quot;&gt;https://dab.surf.nl/resolve-pid/doi:</xsl:text><xsl:value-of select="//ns1:identifier"/><xsl:text disable-output-escaping="yes">&lt;/a&gt;",</xsl:text>
        "metadataBlocks": {
         "citation": {
         "fields": [
