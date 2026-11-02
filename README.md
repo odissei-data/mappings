@@ -17,3 +17,9 @@ Columns you need to fill in by hand:
 
 The `JMESPath Corrected` column is a special case. Incorrect paths are usually generated when dealing with multiple compound values like `authorName`.
 These paths need to be manually corrected as shown in the spreadsheet.
+
+# Releases
+Each mapping is released with its own tag, `<mapping>/v<major>.<minor>.<patch>`, for example `cbs/v1.1.0`.
+A release covers the mapping file and its template: `mappings/<mapping>-mapping.json` and `templates/<mapping>_dataverse_template.json`.
+Tag a mapping when a change to it is ready to be used.
+The [ingestion-workflow-orchestrator](https://github.com/odissei-data/ingestion-workflow-orchestrator) lists the version of each mapping it uses in `resources/mapping-versions`.
